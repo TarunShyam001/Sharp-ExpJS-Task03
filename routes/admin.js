@@ -19,8 +19,8 @@ router.get('/add-product',(req, res, next)=>{
 
 // /admin/add-product => POST Request
 router.post('/add-product', (req, res, next)=>{
-    console.log(req.body.title);
-    console.log(req.body.size);
+    console.log(`item name = ${req.body.title}`);
+    console.log(`number of items = ${req.body.size}`);
     res.redirect('/');
 });
 
