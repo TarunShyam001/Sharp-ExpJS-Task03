@@ -1,0 +1,44 @@
+.prod-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.form-control {
+    margin: 1rem 0;
+    align-items: center;
+}
+.form-control label,
+.form-control input{
+    display: block;
+    width: 100%;
+}
+
+.form-control label{
+    color: rgb(68, 255, 161);
+    font-size: 20px;
+    font-weight: 650;
+}
+
+.form-control input{
+    border: 2px solid rgb(68, 255, 161);
+    font: inherit;
+    border-radius: 2px;
+}
+
+button {
+    font: inherit;
+    width: 120px;
+    height: 20px;
+    border: 1px solid rgb(255, 94, 30);
+    color: rgb(255, 94, 30);
+    background-color: aquamarine;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover,
+button:active{
+    background-color: rgb(255, 94, 30);
+    color: aqua;
+}

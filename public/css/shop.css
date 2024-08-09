@@ -1,0 +1,13 @@
+
+main{
+    padding: 1rem;
+}
+h1{
+    font-style: oblique;
+    font-size: 350%;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 225%;
+}
